@@ -8,7 +8,7 @@ public class HomeController {
 	
 	@GetMapping("/home")
 	public String Hello() {
-		return "Hello ";
+		return "Hello, this page is hosted by smit kalavadiya!!";
 	}
 	
 }
